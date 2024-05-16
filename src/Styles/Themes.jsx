@@ -19,10 +19,10 @@ export const Light ={
     bg: "#493B3B",
     bgAlpha: "rgba(250,250,250,.3)",
     bg2: "rgb(245,245,245)",
-    bg3: "rgb(230,230,230)",
+    bg3: "#0B6E80",
     primary: "rgb(52, 131, 235)",
-    bg4:"#9247FC",
-    bgtotal:"#645757",
+    bg4:"#148599",
+    bgtotal:"#D6CECE",
     bgtgderecha:"#fff",
     barrascroll: "#a8a7a7",
 
