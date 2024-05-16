@@ -95,7 +95,7 @@ const secondarylinkArray=[
 //regiones - comoponentes stilizaza
 
 const Container = styled.div`
-
+  
   color: ${(props)=> props.theme.text};
   background: ${(props)=> props.theme.bg};
   position: sticky;
