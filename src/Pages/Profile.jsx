@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import React from 'react'
 
-export function Profile() {
+const Profile = () => {
   return (
-    <Container>
-      <h1>Perfil</h1>
-    </Container>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-const Container = styled.div``;
+export default Profile

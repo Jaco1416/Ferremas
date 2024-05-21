@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import React from 'react'
 
-export function Home() {
+const Home = () => {
   return (
-    <Container>
-      <h1>Casita</h1>
-    </Container>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-const Container = styled.div``;
+export default Home

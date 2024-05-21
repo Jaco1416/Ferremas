@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import React from 'react'
 
-export function Cart() {
+const Cart = () => {
   return (
-    <Container>
-      <h1>Carrito</h1>
-    </Container>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-const Container = styled.div``;
+export default Cart

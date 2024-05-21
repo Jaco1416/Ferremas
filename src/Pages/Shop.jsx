@@ -1,11 +1,14 @@
-import styled from "styled-components";
+import React from 'react'
+import Hero from '../Components/Hero/Hero'
+import Popular from '../Components/Popular/Popular'
 
-export function Shop() {
+const Shop = () => {
   return (
-    <Container>
-      <h1>Tienda</h1>
-    </Container>
-  );
+    <div>
+      <Hero/>
+      <Popular/>
+    </div>
+  )
 }
 
-const Container = styled.div``;
+export default Shop

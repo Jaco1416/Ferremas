@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import React from 'react'
 
-export function Login() {
+const Login = () => {
   return (
-    <Container>
-      <h1>Logit</h1>
-    </Container>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
-const Container = styled.div``;
+export default Login
