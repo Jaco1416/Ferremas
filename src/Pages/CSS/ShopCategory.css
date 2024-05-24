@@ -1,0 +1,70 @@
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.shopcategory-sort img{
+    width: 13px;
+    height: 9px;
+}
+
+.shopcategory-indexSort p{
+    color: #787878;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.shopcategory-indexSort span{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.shopcategory-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en el contenedor */
+    padding: 0 20px; /* Agrega dos espacios en blanco a los lados */
+}
+
+.shopcategory-products .item img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+}
+
+/* Estilos para los elementos Item */
+.shopcategory-products .item {
+    width: calc(50% - 20px); /* Calcula el ancho de cada elemento para que queden dos elementos por fila con espacio entre ellos */
+    max-width: 300px; /* Establece un ancho máximo para cada elemento */
+    margin: 20px; /* Espacio entre los elementos */
+}
+
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    background: #F5F5F5;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500;
+}
