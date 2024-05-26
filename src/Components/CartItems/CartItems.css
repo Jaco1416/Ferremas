@@ -21,45 +21,47 @@
 
 .cartitems-format {
     font-size: 17px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
-.carticon-producticon {
-    height: 62px;
-
+.carticon-product-icon {
+    width: 80px;
 }
 
-.carticon-remove-icon {
+.cartitems-remove-icon {
     width: 15px;
     margin: 0px 40px;
     cursor: pointer;
 }
-.cartitems-quantity{
+
+.cartitems-quantity {
     width: 64px;
     height: 50px;
-    border: 2px solid #e2e2e2;
+    border: 2px solid #ebebeb;
     background: #fff;
 }
-.cartitems-down{
-    display: flex;
-    margin: 100px 0px ;
 
+.caritems-down {
+    display: flex;
+    margin: 100px 0px;
 }
-.carticon-total{
+
+.cartitems-total {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-right: 200px;
     gap: 40px;
-
 }
-.cartitem-total-item{
+
+.cartitems-total-item {
     display: flex;
     justify-content: space-between;
     padding: 15px 0px;
 }
-.cartitems-total button{
-    width: 256px;
+
+.cartitems-total button {
+    width: 262px;
     height: 58px;
     outline: none;
     border: none;
@@ -68,36 +70,150 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.5s;
+    /* Transición suave para el cambio de color de fondo */
+    transition: 1s;
 }
-.cartitems-promocode{
-    flex: 1;
-    font-size: 16px;
-    font-weight: 500px;
-    padding: 0px 340px;
+
+/* Agregamos un estilo para cuando se pasa el cursor por encima del botón */
+.cartitems-total button:hover {
+    background-color: #1cafc9;
+    /* Cambiamos el color de fondo a rojo */
+    transition: 1s;
+    border-radius: 100px;
 }
-.cartitems-promocode p{
-    color: #555;
+
+
+
+@media(max-width: 1200px) {
+    .cartitems {
+        margin: 60px 50px;
+    }
+
+    .cartitems-format-main {
+        grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 20px;
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+
+    .carticon-product-icon {
+        width: 50px;
+    }
+
+    .cartitems-remove-icon {
+        margin: auto;
+    }
+
+    .cartitems-quantity {
+        width: 40px;
+        height: 30px;
+    }
+
+    .caritems-down {
+        margin: 80px 0px;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .cartitems-total {
+        margin: 0;
+    }
+
+    .cartitems-total button {
+        max-width: 200px;
+        height: 45px;
+        font-size: 13px;
+    }
 }
-.cartitems-promobox{
-    width: 504px;
-    margin-top: 15px;
-    padding-left: 20px;
-    height: 58px;
-    background: #eaeaea;
+
+@media(max-width:500px) {
+    .cartitems-format-main {
+        display: none;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        gap: 10px;
+    }
+
+    .cartitems-format {
+        display: grid;
+    }
 }
-.cartitems-promobox input{
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 16px;
-    width: 330px;
-    height: 50px;
+
+.cartitems-empty {
+    text-align: center;
+    padding: 20px;
 }
-.cartitems-promobox button{
-    width: 170px;
-    height: 58px;
-    background: #148599;
+
+.cartitems-empty h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.cartitems-empty p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #919191;
+}
+
+.cartitems-empty img {
+    width: 20%;
+    display: flex;
+    margin: 50px auto;
+    margin-bottom: 80px;
+}
+
+.boton-inferior {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color: white;
-    font-size: 16px;
+    background-color: #171717;
+    padding: 1em 2em;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
     cursor: pointer;
+    overflow: hidden;
+
+}
+
+.boton-inferior span:not(:nth-child(6)) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #0c66ed;
+    border-radius: 50%;
+    transition: .6s ease;
+}
+
+.boton-inferior span:nth-child(6) {
+    position: relative;
+}
+
+.boton-inferior span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+}
+
+.boton-inferior span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+}
+
+.boton-inferior span:nth-child(3) {
+    transform: translate(-.2em, 1.8em);
+}
+
+.boton-inferior span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+}
+
+.boton-inferior span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+}
+
+.boton-inferior:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
 }

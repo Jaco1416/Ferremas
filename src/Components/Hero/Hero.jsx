@@ -17,9 +17,8 @@ const Hero = () => {
           <p>Herrmientas para </p>
           <p>todos</p>
         </div>
-        <div className="Hero-latest-btn">
-            <div>Precios bajos</div>
-            <img src={arrow_icon} alt="" />
+        <div className="Hero-latest">
+            <button>Ir a herramientas</button>
         </div>
       </div>
       <div className="HeroRight">

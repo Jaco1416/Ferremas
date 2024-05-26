@@ -1,0 +1,16 @@
+.Midbar {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px rgb(0, 0, 0);
+    background: #352b2b;
+    align-items: center;
+}
+
+.Mid-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #00D9FF;
+}

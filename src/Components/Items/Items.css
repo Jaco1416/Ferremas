@@ -5,6 +5,7 @@
     
 }
 .item p{
+    font-family: poppins;
     margin: 6px 0px;
 }
 .item img{
@@ -17,7 +18,7 @@
     gap: 20px;
 }
 .item-price-new{
-    color: #371451;
+    color: #148599;
     font-size: 18px;
     font-weight: 600;
 }

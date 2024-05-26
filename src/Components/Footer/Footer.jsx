@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Footer_Logo from '../../assets/logo_big.png'
+import Footer_Logo from '../../assets/Ferremas_logo.png'
 import InstagramIcon from '../../assets/instagram_icon.png'
 import PinterestIcon from '../../assets/pintester_icon.png'
 import WhatasappIcon from '../../assets/whatsapp_icon.png'
@@ -10,24 +10,24 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-logo">
         <img src={Footer_Logo} alt="Imagenfooter" />
-        <p>SHOPPER</p>
+        <p>FerreMas</p>
       </div>
       <ul className="footer-links">
-        <li>Company</li>
-        <li>Products</li>
-        <li>Offices</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>Inicio</li>
+        <li>Tienda</li>
+        <li>Hombres</li>
+        <li>Mujeres</li>
+        <li>Niños</li>
       </ul>
       <div className="footer-social-icons">
         <div className="footer-icons-container">
-            <img src={InstagramIcon} alt="instagramIcon" />
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={InstagramIcon} alt="instagramIcon" /></a>
         </div>
         <div className="footer-icons-container">
-            <img src={PinterestIcon} alt="instagramIcon" />
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={PinterestIcon} alt="instagramIcon" /></a>
         </div>
         <div className="footer-icons-container">
-            <img src={WhatasappIcon} alt="instagramIcon" />
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={WhatasappIcon} alt="instagramIcon" /></a>
         </div>
       </div>
       <div className="footer-copyright">

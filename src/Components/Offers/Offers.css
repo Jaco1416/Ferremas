@@ -1,11 +1,10 @@
 .offers{
-    width: 65%;
+    width: 100%;
     height: 60vh;
     display: flex;
     margin: auto;
-    padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #D6CECE, #e1ffea22 60%);
+    background: linear-gradient(180deg, #D6CECE, #e1ffea22 200%);
 
 }
 .offers-left{
@@ -37,6 +36,12 @@
     font-weight: 500;
     margin-top: 30px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.offers-left button:hover{
+   background: #19a4bd;
+   transition: 0.5s;
 }
 .offers-right{
     flex: 1;

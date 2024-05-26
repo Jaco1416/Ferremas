@@ -1,36 +1,39 @@
-import p1_img from './tal_stan.png'
-import p2_img from './sier_bauker.png'
-import p3_img from './kanyeRobloxFace.png'
-import p4_img from './kendrickson.png'
+import p1_img from './esmeril.png'
+import p2_img from './bateria.png'
+import p3_img from './soldadora.png'
+import p4_img from './lampara.png'
 
 //Este data es una especie de "Base de datos", donde están los diferentes productos que usaré como ejemplo mientras se desarrolla la verdadera BD
 
 let data_product = [
   {
     id:1,
-    name:"Taladro Percutor 20v Brushless",
-    brand: "Stanley",
+    name:"Esmeril Angular 7″ GWS 28-180 Bosch",
+    brand: "Bosch",
     image:p1_img,
-    new_price:37990,
-    old_price:42990,
+    new_price: 203990,
+    old_price: 253990,
   },
   {id:2,
-    name:"Sierra Circular Eléctrica 7 1/4 1800w Bauker",
-    image:p2_img,
-    new_price:63990,
-    old_price:79990,
+    name:"Soldadora arco manual 160 A",
+    brand: "Bauker",
+    image:p3_img,
+    new_price: 99990,
+    old_price:151990,
   },
   {id:3,
-    name:"Cabezota roblox de Kaniwes",
-    image:p3_img,
-    new_price:1000000,
-    old_price:1500000,
+    name:"LÁMPARA DE MESA COBRE 1 LUZ E27 60 W",
+    brand: "Home Collection",
+    image:p4_img,
+    new_price:16990,
+    old_price:24990,
   },
   {id:4,
-    name:"Hijo de Kendrick Lamar",
-    image:p4_img,
-    new_price:2000,
-    old_price:2009,
+    name:"Kit Baterías 2ah + Cargador 20v Dewalt",
+    brand: "Dewalt",
+    image:p2_img,
+    new_price:149390,
+    old_price:179990,
   },
 ];
 

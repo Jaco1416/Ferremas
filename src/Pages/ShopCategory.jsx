@@ -5,6 +5,7 @@ import dropdown_icon from '../assets/dropdown_icon.png'
 import Item from '../Components/Items/Items'
 
 
+
 const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext);
   return (
@@ -29,7 +30,7 @@ const ShopCategory = (props) => {
         })}
       </div>
       <div className="shopcategory-loadmore">
-        Mostrar más
+        -------------
       </div>
     </div>
   )
