@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useEffect } from 'react';
 import './LoginP.css';
 
 const PaginaLogin = () => {
@@ -24,11 +24,11 @@ const PaginaLogin = () => {
         <form>
           <div className="form-group">
             <label htmlFor="email" className='label-login'>Correo electrónico:</label>
-            <input type="email" id="email" name="email" placeholder="Correo electrónico" required className='login-inputs-bonitos'/>
+            <input type="email" id="email" name="email" placeholder="Correo electrónico" required className='login-inputs-bonitos' />
           </div>
           <div className="form-group">
             <label htmlFor="password" className='label-login'>Contraseña:</label>
-            <input type="password" id="password" name="password" placeholder="Contraseña" required className='login-inputs-bonitos'/>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required className='login-inputs-bonitos' />
           </div>
           <button type="submit" className='boton-inferiors'><span>Iniciar sesión</span></button>
           <p className='olvidaste-p' onClick={abrirModal}>¿Olvidaste tu contraseña?</p> {/* Agregar onClick para abrir la ventana modal */}
@@ -41,7 +41,7 @@ const PaginaLogin = () => {
           <form>
             <div className="form-group">
               <p>Ingresa el correo registrado, te mandaremos un correo para que puedas restablecer tu contraseña.</p>
-              <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required className='login-inputs-bonitos'/>
+              <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required className='login-inputs-bonitos' />
             </div>
             <button type="submit">Enviar</button>
           </form>

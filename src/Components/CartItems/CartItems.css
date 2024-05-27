@@ -71,15 +71,12 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.5s;
-    /* Transición suave para el cambio de color de fondo */
     transition: 1s;
 }
 
-/* Agregamos un estilo para cuando se pasa el cursor por encima del botón */
+
 .cartitems-total button:hover {
     background-color: #1cafc9;
-    /* Cambiamos el color de fondo a rojo */
-    transition: 1s;
     border-radius: 100px;
 }
 

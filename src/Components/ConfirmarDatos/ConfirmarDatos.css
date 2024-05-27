@@ -1,14 +1,9 @@
 .confirmardatos {
     display: flex;
-    /* Hacemos que el contenedor sea relativo para posicionar los label relativos a él */
-    flex-direction: column;
-    /* Alineamos los label en columna */
-    align-items: center;
-    /* Centramos los label */
-    justify-content: center;
-    /* Centramos los label */
+    flex-direction: column;   
+    align-items: center;  
+    justify-content: center;  
     margin-top: 20px;
-    /* Espacio entre el contenedor y el label */
 }
 
 .confirmardatos-format {

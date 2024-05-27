@@ -20,12 +20,12 @@ import kid_banner from './assets/banner_kids.png'
 import ShopCategory from './Pages/ShopCategory';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Indicadores from './Indicadores';
 
 
 function App() {
   return (
-    <div>
+    <div className='body'>
       <BrowserRouter>
         <Navbar/>
         <Midbar/>
@@ -47,7 +47,7 @@ function App() {
           <Route path='/Transferencia' element={<Transferencia/>}/>
           <Route path='/Confirmar' element={<Confirmar/>}/>
         </Routes>
-        
+        <Indicadores/>
         <Footer/>
       </BrowserRouter>
       

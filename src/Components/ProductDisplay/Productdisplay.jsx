@@ -25,7 +25,7 @@ const Productdisplay = (props) => {
             <div className="productdisplay-right-price-new">${product.new_price}</div>
         </div>
         <div className="productdisplay-right-description">
-            Al peo soy un bastardo y no se valorar a esa wachita que conmigo se porta bien
+            Descripcion del producto
         </div>
         <div className="productdisplay-right-size">
             <h1>Select size</h1>
